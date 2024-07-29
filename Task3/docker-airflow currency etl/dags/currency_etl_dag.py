@@ -17,7 +17,7 @@ from airflow.models import Variable
 
 
 start_date = '2024-07-01'
-
+ 
 # Define the default arguments for the DAG
 default_args = {
     'owner': 'airflow',
