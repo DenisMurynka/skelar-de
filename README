@@ -1,0 +1,31 @@
+# Open a terminal (Command Prompt or PowerShell for Windows, Terminal for macOS or Linux)
+
+# Ensure Git is installed
+# Visit https://git-scm.com to download and install console Git if not already installed
+
+# Clone the repository
+git clone https://github.com/Abblix/Oidc.Server.git
+
+
+## Task3
+
+# Ensure Docker is installed
+# Visit https://www.docker.com/get-started/ to download and install console Docker if not already installed
+
+# Run the command below to check if the Docker is installed
+docker -v
+
+# Navigate to the project directory
+cd Task3/docker-airflow currency etl
+
+# Run command below to initillize the Airflow environment.
+docker-compose up airflow-init 
+
+# Run the command below to get up and running needed serivces
+docker-compose up
+
+# Open the link below to find the DAG on UI 
+http://0.0.0.0:8080/dags/exchange_rate_dag
+
+# Login to Airflow 
+Login and passw: airflow
