@@ -11,7 +11,7 @@
 # SCD1 - Slowly Changing Dimentions Type 1
 # SCD2 - Slowly Chaning Dimentions Type 2
 #
-# See file Comments.pptx for comments on SCD changes!
+# See file Comments.pdf for comments on SCD changes!
 #
 ################################################################################*/
 
